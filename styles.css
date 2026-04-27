@@ -1,0 +1,70 @@
+#darija-popup {
+  position: absolute;
+  z-index: 999999;
+  background: #1a1a2e;
+  color: #eee;
+  border-radius: 12px;
+  padding: 12px 14px;
+  width: 300px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  border: 1px solid #3a3a5c;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.darija-header {
+  font-size: 12px;
+  font-weight: 600;
+  color: #a78bfa;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.darija-content {
+  line-height: 1.6;
+  color: #f0f0f0;
+  direction: auto;
+  margin-bottom: 10px;
+}
+
+.darija-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0;
+}
+
+.darija-close:hover {
+  color: #fff;
+}
+
+.darija-copy {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  background: #2d2d4e;
+  border: 1px solid #4a4a7a;
+  border-radius: 8px;
+  color: #a78bfa;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.darija-copy:hover {
+  background: #3d3d6e;
+  color: #fff;
+}

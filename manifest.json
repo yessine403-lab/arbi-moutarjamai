@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Arbi Moutarjam AI",
+  "version": "1.0",
+  "description": "Translate French/English to Arabic instantly using AI",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "https://api.groq.com/*",
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js", "popup-ui.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
