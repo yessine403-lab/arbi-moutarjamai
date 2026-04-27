@@ -4,6 +4,7 @@ A Chrome Extension that instantly translates any French or English text to Arabi
 
 ## ✨ Demo
 > Select any text on any webpage → AI translation appears instantly in a popup
+> ![Demo](demo.png)
 
 ## 🚀 Features
 - Translate French → Arabic
